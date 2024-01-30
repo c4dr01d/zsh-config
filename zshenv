@@ -1,5 +1,8 @@
 setopt NO_GLOBAL_RCS
 
+# Dotfile
+export DOTDIR="$HOME/.dotfiles"
+
 # XDG
 [[ -n $XDG_CONFIG_HOME ]] || export XDG_CONFIG_HOME=$HOME/.config
 [[ -n $XDG_DATA_HOME ]] || export XDG_DATA_HOME=$HOME/.local/share
